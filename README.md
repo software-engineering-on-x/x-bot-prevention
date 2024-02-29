@@ -1,12 +1,31 @@
 # 𝕏 Bot Prevention <!-- omit in toc -->
 
 ![build](https://img.shields.io/github/actions/workflow/status/software-engineering-on-x/x-bot-prevention/ci.yml?branch=master)
-[![njord: rustc 1.74+](https://img.shields.io/badge/xbotprevention-rustc_1.74+-lightgray.svg)](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
-[![njord_derive: rustc 1.74+](https://img.shields.io/badge/njord_derive-rustc_1.74+-lightgray.svg)](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
+[![xbotprevention: rustc 1.74+](https://img.shields.io/badge/xbotprevention-rustc_1.74+-lightgray.svg)](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
 
 An X bot that analyzes spam bots and blocks them from following, responding etc to an account.
 
 ## About
+
+The idea of this tool is to prevent spam bots on X to follow, respond, like or interact with an account to not mark the targeted
+account a lower score.
+
+### Key factors 
+
+Some of the key factors with its probability (0-1) that the bot will evaluate if the account is a spam bot account:
+
+- 0 followers
+- Only followed by unverified
+- No posts or only re-posts
+- No media
+- No profile picture
+- Gif spam
+- No description
+- Duplicated description based on other account that exists in current dataset
+- No banner
+- Sending only duplicated posts to multiple accounts
+
+These factors will be saved in a configuration file that will be loaded on runtime. 
 
 ## Getting Help
 

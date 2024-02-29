@@ -1,0 +1,11 @@
+zero_followers = 0.5
+only_followed_by_unverified = 0.5
+no_posts = 0.5
+only_reposts = 0.5
+no_media = 0.5
+no_profile_picture = 0.5
+gif_spam = 0.5
+no_description = 0.5
+no_banner = 0.5
+duplicated_description = 0.5
+duplicated_posts_multiple_accounts = 0.5
