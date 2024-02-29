@@ -29,21 +29,21 @@ These factors will be saved in a configuration file that will be loaded on runti
 
 ## Getting Help
 
-Are you having trouble with X Bot Prevention? We want to help!
+Are you having trouble with 𝕏 Bot Prevention? We want to help!
 
 - Ask questions about it in the Software Engineering community.
 
-- Report bugs with Njord at https://github.com/software-engineering-on-x/x-bot-prevention/issues.
+- Report bugs at https://github.com/software-engineering-on-x/x-bot-prevention/issues.
 
 ## Reporting Issues
 
-Njord uses GitHub’s integrated issue tracking system to record bugs and feature requests. If you want to raise an issue, please follow the recommendations below:
+𝕏 Bot Prevention uses GitHub’s integrated issue tracking system to record bugs and feature requests. If you want to raise an issue, please follow the recommendations below:
 
 - Before you log a bug, please search the issue tracker to see if someone has already reported the problem.
 
 - If the issue doesn’t already exist, create a new issue.
 
-- Please provide as much information as possible with the issue report. We like to know the Njord version, operating system, and Rust version version you’re using.
+- Please provide as much information as possible with the issue report. We like to know the 𝕏 Bot Prevention version, operating system, and Rust version version you’re using.
 
 - If you need to paste code or include a stack trace, use Markdown. ``` escapes before and after your text.
 
@@ -51,7 +51,7 @@ Njord uses GitHub’s integrated issue tracking system to record bugs and featur
 
 ## Code of Conduct
 
-Anyone who interacts with Njord in any space, including but not limited to this GitHub repository, must follow our code of conduct.
+Anyone who interacts with 𝕏 Bot Prevention in any space, including but not limited to this GitHub repository, must follow our code of conduct.
 
 ## Contributors
 
