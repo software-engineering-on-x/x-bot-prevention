@@ -25,7 +25,7 @@ Some of the key factors with its probability (0-1) that the bot will evaluate if
 - No banner
 - Sending only duplicated posts to multiple accounts
 
-These factors will be saved in a configuration file that will be loaded on runtime. Check the configuration file here: [Link Text](backend/Settings.toml)
+These factors will be saved in a configuration file that will be loaded on runtime. Check the configuration file here: [Settings.toml](backend/Settings.toml)
 
 
 ## Getting Help
