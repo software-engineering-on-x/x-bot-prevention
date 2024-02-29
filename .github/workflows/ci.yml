@@ -38,9 +38,12 @@ jobs:
 
       - name: Run Clippy
         run: cargo clippy --all-targets --all-features
+        working-directory: backend
 
       - name: Build Project
         run: cargo build --release
+        working-directory: backend
 
       - name: Run Tests
         run: cargo test
+        working-directory: backend
