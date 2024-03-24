@@ -1,7 +1,7 @@
 # 𝕏 Bot Prevention <!-- omit in toc -->
 
 ![build](https://img.shields.io/github/actions/workflow/status/software-engineering-on-x/x-bot-prevention/ci.yml?branch=master)
-[![xbotprevention: rustc 1.74+](https://img.shields.io/badge/xbotprevention-rustc_1.74+-lightgray.svg)](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
+[![xbotprevention: rustc 1.77+](https://img.shields.io/badge/xbotprevention-rustc_1.77+-lightgray.svg)](https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html)
 
 An X bot that analyzes spam bots and blocks them from following, responding etc to an account.
 

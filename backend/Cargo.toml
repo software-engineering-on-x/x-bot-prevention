@@ -6,7 +6,7 @@ authors = ["Marcus Cvjeticanin <mjovanc@icloud.com>"]
 description = "X Bot that prevents spam bots from interacting with account."
 license = "GPL-3"
 repository = "https://github.com/software-engineering-on-x/x-bot-prevention"
-rust-version = "1.76"
+rust-version = "1.77"
 
 [dependencies]
 config = "0.14.0"
